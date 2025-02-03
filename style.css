@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #333;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e7eef6;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e7eef6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #158ad2;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #7c93a2;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    background-color: #c9d0fb;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #0a0a0a;
+    
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background for footer */
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
